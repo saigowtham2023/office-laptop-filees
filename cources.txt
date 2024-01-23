@@ -1,0 +1,10 @@
+cources
+  deap learning.ai   ---   cource on prompt engineering.
+  css,javascript,react,angular - front end.
+  KML CASE, PASCLE CASE.
+  API
+
+Ubuntu
+aA1234567890
+
+18.223.187.196

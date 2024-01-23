@@ -1,0 +1,83 @@
+using System;
+public enum TypeofCall
+{
+	MM,
+    ML,
+    MSTD,
+    MISD,
+}
+namespace HelloWorld
+{
+  class Airtel
+  {
+  	private string Name;
+    private long PhNo;
+    private long Balance;
+    private long CustId;
+    private string Add;
+    //properties
+    public string CustName
+    {
+    	get{return Name;}
+        set{Name=value;}
+    }
+    public long PhoneNo
+    {
+        set{PhNo=value;}
+    }
+    public long RemBalance
+    {
+        set{Balance=value;}
+    }
+    public long CID
+    {
+        set{CustId=value;}
+    }
+    public string Address
+    {
+    	get{return Add;}
+        set{Add=value;}
+    }
+    //methods
+      public void RecordCall(float Duration, TypeofCall TOC)
+  	  {
+      }
+    
+  }
+  class PrePaid:Airtel
+  {
+  	private int Validity;
+    //properties
+    public int Val
+    {
+    	get{return Validity;}
+        set{Validity=value;}
+    }
+    //methods
+    public void PayBill(int Amt)
+    {
+    }
+  }
+  class PostPaid:Airtel
+  {
+  	private int CreditLimit;
+    //properties
+    public int Cred
+    {
+    	get{return CreditLimit;}
+        set{CreditLimit=value;}
+    }
+    //methods
+    public void Paybill(int Amt)
+    {
+    }
+  }
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
+RemoveAt()

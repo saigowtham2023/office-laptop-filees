@@ -1,0 +1,426 @@
+Generic Foundation
+
+SME-
+
+elicitation-gathering or acquiring.
+
+bank request processing-- atm sends request to bank server-- bank server contains code and process request.
+
+requirement life cycle- requirement-design-coding-test-until clint accepts.
+
+*requirements needed to develop a software application
+	functional requirement 		- core functions.
+	non functional requirements 	- to enance response time.
+					  user load.
+					  Hardware Compatibility.
+					  OS Compatibility.
+
+*Scrum---sprint
+	sprint-duration of time given to complete a task.
+		time management-we can keep track of time and work.
+
+*epic and new story go hand in hand
+
+*kanban board-visual information,
+
+*estimation tecineque- converting into story points and estimating.
+
+*devops-
+github-source code base in the cloud
+*piplines
+build-Test-Deploy-monitor
+
+21-August-2023
+
+exercise
+start grouping in excel sheet - epic, issues, task
+For tasks		      - select how many story points
+Derive sprint start and end date with priority
+
+-sprint-1
+-sprint-2
+-sprint-3
+-sprint-4
+
+Tool 
+Create Project
+Add Wrok Items
+Epic
+Issue
+Task
+Create sprint with start and end date
+add task items
+moniter the scrum meeting by conducting daily scrum meetings
+dash board update or review
+
+
+
+start date and end date of feature
+
+22nd august
+
+SDLC - necessary - mature and robhoust work flow, restuls.
+
+  PO(product owner) try to bring clints to company. intermedieate between clint and technical team.
+ 
+    Negoatiation.	
+    meet clint- requirement elicitation- document the things which are mutually agried upon... FORMS BRD(BUSINESS REQUIREMENT DOCUMENT)
+    conflict  management.(in team)
+    change management.(change in technology)
+    risk management.(decision)(long run)
+    product setup
+    people management(leadership)
+    time management
+ 
+  Architect 
+
+    gives information on technologies avalable to PO(skeleton).	      	
+
+  Leagal Atornie
+  
+  ux/ui designer --- gives a blueprint to customer.
+  developer 	 --- delivers a product prototype first.
+---------------
+
+Business Requirement Document
+ 
+  Smart Requirement - smart, measurable, Attainable, Relevent, time bound
+    time bound
+  Requirement elicitation techinque - brain stroming, surveing, interview,
+
+SDLC Modle agile - Scrum, Kanban
+ 
+  Scrum
+    BRD --- SRS(System requirement specification document) --- project kick of meeting --- sprint planing meeting
+
+    SRS transfers business requirements technical requirements.
+    Scrum team(scrum maseter+team members)
+      9 members including scrum masters.
+      PO is not a scrum team member.
+      % 3 dev to 1 QA.
+      % if more members are exceded then split the team
+
+    Project vision -- epics -- user stories -- sprint planing meeting -- scrum stand out meeting -- sprint gooming meeting -- sprint demo meeting -- sprint retrospective meeting
+    
+    Scrum stand out meeting --- 15min
+      every day
+
+    sprint planing meeting 
+      planning on deadlines.
+      defination of ready
+        accepted by all members that user stories are ready to be taken.
+
+    story points
+      1 story point
+
+    sptint duration
+      10 working days
+      8 hours a day %
+
+    sprint grooming(review) meeting  
+      happens at the mid day of the sprint % 
+      more details on the user stroy
+    
+    sprint demo meeting
+      last day of the sprint
+      1hr
+    
+    sprint retrospective meeting
+      last day of sprint      
+      1-1.5hr
+
+23rd aug
+
+SQL(Structured query language)
+  used for RDBMS.
+  tools 
+    mysql
+  platforms
+    codelab
+  data types
+    premetive data type     - size is fixed.
+    non premetive data type - size is variable
+    varchar - maximum of 255 char including space.
+    int.
+  data defination language
+    creating a record.
+    alter the structure of table.
+    drop
+    trunket
+  data manipulation language
+    enter data and manipulate existing information of table.
+      insert, into, values 
+      update
+      delete
+  data query language
+  keywords
+    select, *, from
+    select, *, from, where
+    select, *, from, where, AND
+    select, *, from, order by, ASC(ascending order)
+    select, colomn_name, from - to print only the last name. 
+  *always delete the previous code when executing. 
+  
+  Join
+    inner
+      select employee.lastname, employee.Age from employee inner join employee2 on employee.EmployeeId=employee2.EmployeeId
+      select employee.lastname, employee.Age,employee2.EmployeeStatus from employee inner join employee2 on employee.EmployeeId=employee2.EmployeeId 
+     
+    left
+
+    right
+      select employee.lastname, employee2.EmployeeId,employee.Designation from employee2 right join employee on employee2.EmployeeId=employee.EmployeeId   
+    
+    self
+    
+    full outer join
+      select employee.Age, employee.Designation, employee2.EmployeeStatus, employee2.EmployeeBand from employee full outer join employee2 on employee.EmployeeId=employee2.EmployeeId
+    
+  Sub-querying
+    output of one query acts as input of the next query
+  
+no SQL
+  used for non RDBMS.
+  mongodb,casandra(CQL)
+
+https://www.tutorialrepublic.com/codelab.php?topic=sql&file=select-all
+
+TESTING
+  Requirements should be clear.
+  part of SDLC
+
+  Software Testing life cycle
+
+24th august 2023
+
+Test Strategy Document - first document in testing stage
+
+Initial work of a tester
+
+  manual test cases development, positive test cases and negative test cases, ready testing environment -- testing bed
+
+  Manual testing
+  
+  Test case -- document prepared while testing 
+  
+  Types of testing
+    1)Functional Testing
+        test the functionality.
+    2)Non-Functional Testing
+        testing logos, layout position etc.
+   
+  Software Testing Hierarchy
+    Test or QA Environmnet
+      developers deploy a replica of their module in TE and test them.
+    
+    Staging or Staged Environment
+      stakeholders from client side test the system here.
+
+    Production Environmnet 
+      the producting comming out of acceptance testing is deployed in PE.
+    
+    Unit Testing 
+      each module of the code is tested before entering it into the repositery.
+    
+    Integrated Testing
+      modules are integrated to form integrated module forms a raw software this is tested.
+
+    System Testing
+      other softwares or API's are integrated with the raw software to make it into a system -- final product
+      end to end functionality is tested.
+
+    User Acceptance Testing or Green Box Testing or Acceptance Testing
+      clint sends stake holders to test ty system and gives acceptance.
+     
+Different Testing Types
+  1)Smoke
+    Testing is done on selective testcases
+    Testing is done on testcases which cover key functionalities
+    functionality of 
+  2)Regression
+    End to end testing
+    Regression Suit - contains all the test cases
+    is done when application release, update releases, code modification
+    ensures stability
+    takes long time.
+  3)Performance
+  4)Ad Hoc
+Bugs
+  Intermitent issue - Bugs that occur only sometimes
+  Bug life cycle
+    Bug Report
+      summary of the bug
+      Description 
+        Steps to reproduce the bug.
+        in which environment and version of application you tested
+        which data set you used to test the bug
+        screed shot of the but/recording the screen while reproducing the bug
+        name of the reporter
+        testcase numbers which are blocked due to this bug
+        seviority and priority of the bug
+      Status of the bug is considered as NEW when you are reporting it
+      when
+
+CI/CD
+  CI
+    CI is contineous integration of code from local machine to the git repository
+dml
+  insert
+    insert into employee (colomn_name)values('nayak'); - insert into only selective colomns
+  delete
+    delete from employee where EmployeeId='shubam'; - to delete a row
+    delete from employee where EmployeeId=104;
+
+  update
+    update employee set Designation='ASE' where EmployeeId=101;
+    update employee set Designation='ASE',city='NY' where EmployeeId=102;
+    update employee set EmployeeId=104,Firstname='pratyush',Age=20,Designation='Boss',city='london' where lastname='nayak';
+
+  alter
+
+dql
+  select count(Age) from employee - gives no.of coloumns which has age 
+  select * from employee limit 2;
+-----------
+
+q) create a table with OrderId, customer name, order price, order location, customer city
+   add 7 customers data into it
+   write a query to fetch the data of the customer whose order price is more than 500
+   write a query to fetch the data of the customer whose city is either mumbai or pune
+   write a query to fetch the data of the customer whose name is mike
+   write a query to fetch the data of the customer
+   delete 3 customers from it
+
+a)select * from dd where orderprice>500;
+  select * from dd where customercity='Mumbai' or customercity='Pune';
+  select * from dd where customername='mike';
+  delete from dd where orderId=1;
+  delete from dd where orderId=2;
+  delete from dd where orderId=3;
+--------
+
+repositories - contains modules of code
+
+25 august 
+
+Cloud(Intro-Azure)
+  
+  cloud provides storage and platforms to store and access data
+  
+  Explore fundamentals of data
+     
+    structured data
+      follows certain schema
+    semi structured data
+      follows certain schema but differ based on different contexts
+    unstructured data
+      no schema
+      
+    Storage of Data
+      files
+        Text
+	  Javascript Object Notation(JSON)
+  	  Extensible Markup Language(xml)
+      Databases
+        Relational
+          data is stored in tabels and tables are inter related --- related using primary keys -- primary keys are keys 
+        Non Relational
+          Tables
+          Graphs
+         
+    Transactional Datat Workloads
+      Properties that should be achieved while data transaction
+        Atomicity   - the transaction should be either success or failed
+        Consistency - data should move from one valied state to other valied state.
+        Isolation   - concurrent transactions cannot interfere with one other.
+        Durability  - when data transaction is success, the data changes are persisted in the database.
+    Analytical data workloads
+      Extract, Transform and load(ETL) process copies data from files and OLTP databases into data warehouse -- ware house is optmised for 	                         	READ activity -- in data warehouse data is relational.
+      from warehouse data is aggrigated and loaded into an online analytical processing(OLAP) model or Cube.
+      data from datalake, datawarehouse and cube is queried to produce reports and dashboards.
+
+      Descriptive
+      Dyagnostics
+      Prespective
+  Cloud concepts
+    Cloud Computing Architecture
+  Cloud service types
+    IaaS>>PaaS>>SaaS
+    IaaS-servers and storage Networking firewalls/security and phisical servers
+    PaaS-IaaS+development tools
+  
+  Azure Blob Storage
+    blob - binary large object - files 
+      1)Block Blobs
+          large discrete blobs that change infrequently
+      2)Page Blobs
+          used as virtual disk storage for VMs
+      3)Append Blobs
+          optmize append operations
+      Pre-Blob storage tiers
+        Hot    - frequently used- lowest latency
+        cool   -frequently used-higher latency
+        Archive-rarely used -highest latency
+    has flat Namespace
+  
+  Azure data lake store Gen 2
+    has Hierarchical Namespace
+  collection of different services is called resource group
+
+  Azure Subscriptions
+    provides authirozation to access azure services
+  
+  management groups
+    management groups -- contains multiple subscriptions -- subscriptions contain access to multiple resource groups -- resource group is a set of resources
+  
+  Compute and Networking - Objective Domain
+    
+    Azure compute services
+      Azre Virtual Machine
+        easily scalable
+        IaaS of azure
+        VM scale sets
+          provides load balance opportunity.
+      
+
+28. 8. 2023
+
+shell_7_foundation_Java_Spring --- directory 
+
+"deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs)stable" | sudo tee /etc/apt/sources.list.d/docker.list> /dev/null
+    
+
+What is the primary purpose of Continuous Integration (CI)
+
+What is the purpose of mocking in unit testing
+What is the main benefit of following TDD practices
+
+What is the primary language used to define GitHub Actions workflows
+
+What is GitHub Actions primarily used for
+
+What is the sequence of steps in Test-Driven Development (TDD)
+What triggers can initiate a GitHub Actions workflow
+In the context of GitHub Actions, what is a "workflow"?
+
+    
+
+     
+      
+
+  
+
+      
+      
+    
+  
+  
+
+
+
+       
+      
+      
+ 
+  
+  

@@ -1,0 +1,30 @@
+personal website
+
+personal website file path - "C:\Users\s-g.tammineni\personal website"
+
+step 1 
+
+created a file and initialized empty git repository in git
+challenges faced - 
+  while trying to open the directory named "personal website" using cd in git bash.
+  wrong command - cd personal website     
+  error         - too many arguments
+  write command - cd "personal website"
+  reason        - while trying to enter directory names having space we should use "" so that git            	          
+		  knows it is a single argument.
+
+"C:\Users\s-g.tammineni\Desktop\Sai Gowtham Tammineni_photo.jpg"
+
+pending - failed to push the changes to github
+
+step 2
+
+creating a html and css file and working on it
+html file -
+ in one div i have created header, main in header i have creted a headding element and given my     	
+name as headding, in the main element i have inserted an image of myself which i am 	trying to resize.
+ i have resized it successfully using css file.
+ challeng - the image size was not changing even i change the dimensions in css file.
+ error    - the css file was not linked to the html file
+ solution - the css fule was linked to the html file using <link> tage 
+ 	    <link rel="stylesheet" type="text/css" href="styles.css">

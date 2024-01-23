@@ -1,0 +1,17 @@
+logging in to backloags
+
+data is being consolidated
+api to fetch GHApps data
+
+esier to build a crawler frameword and 
+
+app registration id(instillation id) for a github app - only org owners can get instillation id
+                                                      - org owners can get instllation id from the url link also
+
+git jira intrigation guidlines and approval permisions
+document guidlines on how to use GHApp to generate workflow token
+data validation exercice to doramatrix
+
+policies
+shell policy bot
+ sherin - manage copilot license through team

@@ -1,0 +1,95 @@
+custom cource
+Source - Language complier - IL code and meta data -----CLR  ---- IL code - JIT(Just In Time) complier - Native Code
+								Metadata- Class loder - make a document on the metadata and creates a memory layout to run.
+Metadata- detailed documentation about the source code.
+namespace-functionally interdependent classes are grouped together.
+
+Baseclass Library
+system(root namespace)>>object(root class)
+  its a repository of classes grouped in namespaces - name spaces are organized in a hirarchial order.
+  it also contains native data types.
+
+HOME work
+the features of C# tech 
+
+
+25)In TypeScript, what is the purpose of an interface?
+
+How are stored procedures written in PostgreSQL?
+What is CORS (Cross-Origin Resource Sharing) in the context of Web APIs?
+What does the "var" keyword do in C#?
+What is ASP.NET Core Web API
+What is JSX in React?
+How does TypeScript help in development compared to JavaScript?
+What is JavaScript primarily used for?
+How can you define optional properties in TypeScript interfaces
+How does TypeScript handle transpilation and browser compatibility
+What is a database trigger in PostgreSQL
+How is data typically transferred between a client and a Web API
+
+30 August
+
+microsoft used Pascel casing
+
+1 Class - 5 Fields - two methods
+
+If no base class is mentioned then by default it is inherited by System base class.
+
+protected - can be accessed in the class and child class
+private - can be accessed only by the class
+static constructor
+Properties - special type of functions in c# that help you set value to your fields.
+   syntax:- 
+Indexes - indexes are hybride properties 
+          indexes can be bound to more than one field of same type
+  syntax - public <field type> this[int index]{---}
+Q) can properties be written outside the calss
+
+enum fixed varibles
+instance- a live object
+when class is abstract the methods can be overrided or not overrided but when a method is abstract the class should be abstract.
+
+generics
+  dictionary
+    syntax -- Dictionary<datatype of key,datatype of value> ObjD=new Dictionary<datatype of key,datatype of value>();
+    for loop syntax -- foreach(<value datatype> item in ObjD.values){
+			}
+31 aug
+access modifiers
+internal,private internal
+
+transaction id
+account no
+amount
+
+sql connection
+sql command
+sql data adapter
+sql set
+
+1st september 2023
+
+1)exception
+2)delegates
+3)debugging
+
+Exceptions 
+  Errors are of three thypes
+    1)compile time 2)runtime 3)logical
+    runtime errors are basically exceptions
+  Exception is the base class of all exception classes
+  try,catch,final is used for exception handining - codded in console application
+debugging
+    Break point lines for testing - stop at lines during dubbing
+    stepinto 
+    stepover
+structure
+    structures can have methods.
+    struct cannot be inherited from another struct.
+    struct can inherit from base class and can implemt interface.
+deligates
+function pointers are variables that store address of other functions.
+function pointers are called as Deligates in c#.
+play a key role in event management.
+
+    
